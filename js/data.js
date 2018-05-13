@@ -137,12 +137,11 @@ function generate(){
       'WindowInfo.htm': 'https://iterami.com/WindowInfo.htm/',
       'WZ2100-AI.js': 'https://github.com/iterami/WZ2100-AI.js',
     };
-    var repository = core_random_key({
-      'object': repositories,
-    });
 
     window.open(
-      repositories[repository],
+      repositories[core_random_key({
+        'object': repositories,
+      })],
       '_blank'
     );
 }
