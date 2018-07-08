@@ -1,7 +1,7 @@
 'use strict';
 
 function generate(){
-    var repositories = {
+    let repositories = {
       '9YG0E6r.htm': '../9YG0E6r.htm/index.htm',
       'Alarm.htm': '../Alarm.htm/index.htm',
       'Aquarium-2D.htm': '../Aquarium-2D.htm/index.htm',
