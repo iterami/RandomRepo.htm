@@ -9,6 +9,12 @@ function repo_init(){
         'generate-games': {
           'onclick': generate_game,
         },
+        'generate-github': {
+          'onclick': generate_github,
+        },
+        'generate-iterami': {
+          'onclick': generate_iterami,
+        },
         'generate-simulations': {
           'onclick': generate_simulation,
         },
