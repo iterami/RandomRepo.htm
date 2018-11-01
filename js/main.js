@@ -23,8 +23,23 @@ function repo_init(){
         },
       },
       'keybinds': {
-        72: {
+        49: {
           'todo': generate,
+        },
+        50: {
+          'todo': generate_game,
+        },
+        51: {
+          'todo': generate_simulation,
+        },
+        52: {
+          'todo': generate_tool,
+        },
+        53: {
+          'todo': generate_iterami,
+        },
+        54: {
+          'todo': generate_github,
         },
       },
       'title': 'RandomRepository.htm',
