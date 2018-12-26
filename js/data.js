@@ -68,7 +68,9 @@ function generate_github(){
       'random_number_test.gtk': 'https://github.com/iterami/MultiverseEditor.gtk',
       'SC-AI.cpp': 'https://github.com/iterami/SC-AI.cpp',
       'Scripts': 'https://github.com/iterami/Scripts',
+      'Terminal.gtk': 'https://github.com/iterami/Terminal.gtk',
       'TextEditor.gtk': 'https://github.com/iterami/TextEditor.gtk',
+      'WebBrowser.gtk': 'https://github.com/iterami/WebBrowser.gtk',
       'WZ2100-AI.js': 'https://github.com/iterami/WZ2100-AI.js',
     };
 
@@ -85,6 +87,7 @@ function generate_iterami(){
       '9YG0E6r.htm': '../9YG0E6r.htm/index.htm',
       'Alarm.htm': '../Alarm.htm/index.htm',
       'Aquarium-2D.htm': '../Aquarium-2D.htm/index.htm',
+      'AudioEditor.htm': '../AudioEditor.htm/index.htm',
       'AspectRatio.htm': '../AspectRatio.htm/index.htm',
       'Avoidance-2D.htm': '../Avoidance-2D.htm/index.htm',
       'BaseConverter.htm': '../BaseConverter.htm/index.htm',
@@ -221,6 +224,7 @@ function generate_simulation(){
 function generate_tool(){
     let repositories = {
       'Alarm.htm': '../Alarm.htm/index.htm',
+      'AudioEditor.htm': '../AudioEditor.htm/index.htm',
       'AspectRatio.htm': '../AspectRatio.htm/index.htm',
       'BaseConverter.htm': '../BaseConverter.htm/index.htm',
       'BinaryDataEndecoder.htm': '../BinaryDataEndecoder.htm/index.htm',
@@ -262,6 +266,7 @@ function generate_tool(){
       'RTS-Boxing.htm': '../RTS-Boxing.htm/index.htm',
       'SC-AI.cpp': 'https://github.com/iterami/SC-AI.cpp',
       'Scripts': 'https://github.com/iterami/Scripts',
+      'Terminal.gtk': 'https://github.com/iterami/Terminal.gtk',
       'TextEditor.gtk': 'https://github.com/iterami/TextEditor.gtk',
       'TextInfo.htm': '../TextInfo.htm/index.htm',
       'Time.htm': '../Time.htm/index.htm',
@@ -271,6 +276,7 @@ function generate_tool(){
       'UnitConverter.htm': '../UnitConverter.htm/index.htm',
       'URI.htm': '../URI.htm/index.htm',
       'WASD-2D.htm': '../WASD-2D.htm/index.htm',
+      'WebBrowser.gtk': 'https://github.com/iterami/WebBrowser.gtk',
       'WindowInfo.htm': '../WindowInfo.htm/index.htm',
       'WZ2100-AI.js': 'https://github.com/iterami/WZ2100-AI.js',
     };
