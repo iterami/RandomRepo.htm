@@ -254,6 +254,7 @@ function generate_tool(){
       'IssueExport.htm': '../IssueExport.htm/index.htm',
       'iterami.github.io': 'https://github.com/iterami/iterami.github.io',
       'LocalStorage.htm': '../LocalStorage.htm/index.htm',
+      'MC-iterami-DataPacks': 'MC-iterami-DataPacks',
       'MultiverseEditor.gtk': 'https://github.com/iterami/MultiverseEditor.gtk',
       'MultiverseEditor.htm': '../MultiverseEditor.htm/index.htm',
       'MultiverseLevels.htm': '../MultiverseLevels.htm/index.htm',
