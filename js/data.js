@@ -47,7 +47,7 @@ function generate_game(){
       repositories[core_random_key({
         'object': repositories,
       })],
-      '_blank'
+      core_storage_data['target']
     );
 }
 
@@ -79,7 +79,7 @@ function generate_github(){
       repositories[core_random_key({
         'object': repositories,
       })],
-      '_blank'
+      core_storage_data['target']
     );
 }
 
@@ -181,7 +181,7 @@ function generate_iterami(){
       repositories[core_random_key({
         'object': repositories,
       })],
-      '_blank'
+      core_storage_data['target']
     );
 }
 
@@ -219,7 +219,7 @@ function generate_simulation(){
       repositories[core_random_key({
         'object': repositories,
       })],
-      '_blank'
+      core_storage_data['target']
     );
 }
 
@@ -290,6 +290,6 @@ function generate_tool(){
       repositories[core_random_key({
         'object': repositories,
       })],
-      '_blank'
+      core_storage_data['target']
     );
 }

@@ -42,6 +42,10 @@ function repo_init(){
           'todo': generate_github,
         },
       },
+      'storage': {
+        'target': '_blank',
+      },
+      'storage-menu': '<table><tr><td><input id=target><td>Target</table>',
       'title': 'RandomRepository.htm',
     });
 }
