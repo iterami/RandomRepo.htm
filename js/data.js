@@ -1,18 +1,18 @@
 'use strict';
 
-function generate(){
+function random_any(){
     let types = [
       'game',
       'simulation',
       'tool',
     ];
 
-    window['generate_' + types[core_random_integer({
+    window['random_' + types[core_random_integer({
       'max': 3,
     })]]();
 }
 
-function generate_game(){
+function random_game(){
     let repositories = {
       'Avoidance-2D.htm': '../Avoidance-2D.htm/index.htm',
       'Click.htm': '../Click.htm/index.htm',
@@ -51,7 +51,7 @@ function generate_game(){
     );
 }
 
-function generate_github(){
+function random_github(){
     let repositories = {
       'Chromium-iterami-DevTools': 'https://github.com/iterami/Chromium-iterami-DevTools',
       'Chromium-iterami-Extension': 'https://github.com/iterami/Chromium-iterami-Extension',
@@ -83,7 +83,7 @@ function generate_github(){
     );
 }
 
-function generate_iterami(){
+function random_iterami(){
     let repositories = {
       '9YG0E6r.htm': '../9YG0E6r.htm/index.htm',
       'Alarm.htm': '../Alarm.htm/index.htm',
@@ -186,7 +186,7 @@ function generate_iterami(){
     );
 }
 
-function generate_simulation(){
+function random_simulation(){
     let repositories = {
       '9YG0E6r.htm': '../9YG0E6r.htm/index.htm',
       'Aquarium-2D.htm': '../Aquarium-2D.htm/index.htm',
@@ -224,7 +224,7 @@ function generate_simulation(){
     );
 }
 
-function generate_tool(){
+function random_tool(){
     let repositories = {
       'Alarm.htm': '../Alarm.htm/index.htm',
       'AudioEditor.htm': '../AudioEditor.htm/index.htm',

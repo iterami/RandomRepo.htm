@@ -2,44 +2,24 @@
 
 function repo_init(){
     core_repo_init({
-      'events': {
-        'generate': {
-          'onclick': generate,
-        },
-        'generate-games': {
-          'onclick': generate_game,
-        },
-        'generate-github': {
-          'onclick': generate_github,
-        },
-        'generate-iterami': {
-          'onclick': generate_iterami,
-        },
-        'generate-simulations': {
-          'onclick': generate_simulation,
-        },
-        'generate-tools': {
-          'onclick': generate_tool,
-        },
-      },
       'keybinds': {
         49: {
-          'todo': generate,
+          'todo': random_any,
         },
         50: {
-          'todo': generate_game,
+          'todo': random_game,
         },
         51: {
-          'todo': generate_simulation,
+          'todo': random_simulation,
         },
         52: {
-          'todo': generate_tool,
+          'todo': random_tool,
         },
         53: {
-          'todo': generate_iterami,
+          'todo': random_iterami,
         },
         54: {
-          'todo': generate_github,
+          'todo': random_github,
         },
       },
       'storage': {
