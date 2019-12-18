@@ -56,6 +56,7 @@ function random_github(){
       'Chromium-iterami-DevTools': 'https://github.com/iterami/Chromium-iterami-DevTools',
       'Chromium-iterami-Extension': 'https://github.com/iterami/Chromium-iterami-Extension',
       'Chromium-iterami-Theme': 'https://github.com/iterami/Chromium-iterami-Theme',
+      'clearundostack': 'https://github.com/iterami/clearundostack',
       'ConfigFiles': 'https://github.com/iterami/ConfigFiles',
       'EVE-Overviews.yaml': 'https://github.com/iterami/EVE-Overviews.yaml',
       'EVETools.gtk': 'https://github.com/iterami/EVETools.gtk',
