@@ -7,7 +7,7 @@ function random_any(){
       'tool',
     ];
 
-    window['random_' + types[core_random_integer({
+    globalThis['random_' + types[core_random_integer({
       'max': 3,
     })]]();
 }
@@ -43,7 +43,7 @@ function random_game(){
       'U1.htm': '../U1.htm/index.htm',
     };
 
-    window.open(
+    globalThis.open(
       repositories[core_random_key({
         'object': repositories,
       })],
@@ -76,7 +76,7 @@ function random_github(){
       'WZ2100-AI.js': 'https://github.com/iterami/WZ2100-AI.js',
     };
 
-    window.open(
+    globalThis.open(
       repositories[core_random_key({
         'object': repositories,
       })],
@@ -180,7 +180,7 @@ function random_iterami(){
       'WindowInfo.htm': '../WindowInfo.htm/index.htm',
     };
 
-    window.open(
+    globalThis.open(
       repositories[core_random_key({
         'object': repositories,
       })],
@@ -218,7 +218,7 @@ function random_simulation(){
       'Warped.htm': '../Warped.htm/index.htm',
     };
 
-    window.open(
+    globalThis.open(
       repositories[core_random_key({
         'object': repositories,
       })],
@@ -291,7 +291,7 @@ function random_tool(){
       'WZ2100-AI.js': 'https://github.com/iterami/WZ2100-AI.js',
     };
 
-    window.open(
+    globalThis.open(
       repositories[core_random_key({
         'object': repositories,
       })],
