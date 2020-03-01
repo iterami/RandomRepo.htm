@@ -87,7 +87,6 @@ function random_github(){
 function random_iterami(){
     const repositories = {
       '9YG0E6r.htm': '../9YG0E6r.htm/index.htm',
-      'Alarm.htm': '../Alarm.htm/index.htm',
       'Aquarium-2D.htm': '../Aquarium-2D.htm/index.htm',
       'AudioEditor.htm': '../AudioEditor.htm/index.htm',
       'AspectRatio.htm': '../AspectRatio.htm/index.htm',
@@ -228,7 +227,6 @@ function random_simulation(){
 
 function random_tool(){
     const repositories = {
-      'Alarm.htm': '../Alarm.htm/index.htm',
       'AudioEditor.htm': '../AudioEditor.htm/index.htm',
       'AspectRatio.htm': '../AspectRatio.htm/index.htm',
       'BaseConverter.htm': '../BaseConverter.htm/index.htm',
