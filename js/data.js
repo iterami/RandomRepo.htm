@@ -52,6 +52,7 @@ function random_game(){
 
 function random_github(){
     const repositories = {
+      'Browser.gtk': 'https://github.com/iterami/Browser.gtk',
       'Chromium-iterami-Extension': 'https://github.com/iterami/Chromium-iterami-Extension',
       'Chromium-iterami-Theme': 'https://github.com/iterami/Chromium-iterami-Theme',
       'clearundostack': 'https://github.com/iterami/clearundostack',
@@ -221,6 +222,7 @@ function random_tool(){
       'BaseConverter.htm': '../BaseConverter.htm/index.htm',
       'BinaryDataEndecoder.htm': '../BinaryDataEndecoder.htm/index.htm',
       'Bookmarklets.htm': '../Bookmarklets.htm/index.htm',
+      'Browser.gtk': 'https://github.com/iterami/Browser.gtk',
       'Chromium-iterami-Extension': 'https://github.com/iterami/Chromium-iterami-Extension',
       'Chromium-iterami-Theme': 'https://github.com/iterami/Chromium-iterami-Theme',
       'ColorSelector.htm': '../ColorSelector.htm/index.htm',
