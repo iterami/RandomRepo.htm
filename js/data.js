@@ -59,6 +59,7 @@ function random_github(){
       'https://github.com/iterami/Scripts',
       'https://github.com/iterami/TextEditor.gtk',
       'https://github.com/iterami/WebBrowser.gtk',
+      'https://github.com/iterami/WoW-iterami-Addon',
       'https://github.com/iterami/WZ2100-AI.js',
     ];
 
@@ -252,6 +253,7 @@ function random_tool(){
       '../WASD-2D.htm/index.htm',
       'https://github.com/iterami/WebBrowser.gtk',
       '../WindowInfo.htm/index.htm',
+      'https://github.com/iterami/WoW-iterami-Addon',
       'https://github.com/iterami/WZ2100-AI.js',
     ];
 
