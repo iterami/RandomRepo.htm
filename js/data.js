@@ -14,6 +14,7 @@ function random_any(){
 
 function random_game(){
     const repositories = [
+      '../BlindMouse.htm/index.htm',
       '../Click.htm/index.htm',
       '../Countdown.htm/index.htm',
       '../Dropdown.htm/index.htm',
@@ -78,6 +79,7 @@ function random_iterami(){
       '../AudioEditor.htm/index.htm',
       '../BaseConverter.htm/index.htm',
       '../BinaryDataEndecoder.htm/index.htm',
+      '../BlindMouse.htm/index.htm',
       '../Bookmarklets.htm/index.htm',
       '../Click.htm/index.htm',
       '../Clock.htm/index.htm',
