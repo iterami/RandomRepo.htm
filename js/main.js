@@ -13,12 +13,15 @@ function repo_init(){
           'todo': random_simulation,
         },
         52: {
-          'todo': random_tool,
+          'todo': random_thirdparty,
         },
         53: {
-          'todo': random_iterami,
+          'todo': random_tool,
         },
         54: {
+          'todo': random_iterami,
+        },
+        55: {
           'todo': random_github,
         },
       },

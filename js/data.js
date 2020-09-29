@@ -204,6 +204,32 @@ function random_simulation(){
     );
 }
 
+function random_thirdparty(){
+    const repositories = [
+      'https://github.com/iterami/Chromium-iterami-Extension',
+      'https://github.com/iterami/Chromium-iterami-Theme',
+      'https://github.com/iterami/clearundostack',
+      'https://github.com/iterami/ConfigFiles',
+      'https://github.com/iterami/EVE-Overviews.yaml',
+      '../GitHub-API.htm/index.htm',
+      'https://github.com/iterami/GMod-iterami-Addon',
+      '../Guides.htm/index.htm',
+      'https://github.com/iterami/MC-iterami-DataPacks',
+      '../RandomSCP.htm/index.htm',
+      'https://github.com/iterami/SC-AI.cpp',
+      '../TinyMCE-Editor.htm/index.htm',
+      'https://github.com/iterami/WoW-iterami-Addon',
+      'https://github.com/iterami/WZ2100-AI.js',
+    ];
+
+    globalThis.open(
+      repositories[core_random_integer({
+        'max': repositories.length,
+      })],
+      core_storage_data['target']
+    );
+}
+
 function random_tool(){
     const repositories = [
       '../AudioEditor.htm/index.htm',
