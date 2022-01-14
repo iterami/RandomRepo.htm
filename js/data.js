@@ -49,7 +49,6 @@ function random_github(){
       'https://github.com/iterami/Browser.gtk',
       'https://github.com/iterami/Chromium-iterami-Theme',
       'https://github.com/iterami/clearundostack',
-      'https://github.com/iterami/ConfigFiles',
       'https://github.com/iterami/EVE-Overviews.yaml',
       'https://github.com/iterami/GMod-iterami-Addon',
       'https://github.com/iterami/iterami.github.io',
@@ -205,7 +204,6 @@ function random_thirdparty(){
     const repositories = [
       'https://github.com/iterami/Chromium-iterami-Theme',
       'https://github.com/iterami/clearundostack',
-      'https://github.com/iterami/ConfigFiles',
       'https://github.com/iterami/EVE-Overviews.yaml',
       'https://github.com/iterami/GMod-iterami-Addon',
       '../Guides.htm/index.htm',
@@ -234,7 +232,6 @@ function random_tool(){
       'https://github.com/iterami/Chromium-iterami-Theme',
       '../ColorSelector.htm/index.htm',
       '../common/index.htm',
-      'https://github.com/iterami/ConfigFiles',
       '../Docs.htm/index.htm',
       '../Duel.htm/index.htm',
       '../ESP-Test.htm/index.htm',
