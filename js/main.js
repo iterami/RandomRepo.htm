@@ -3,25 +3,25 @@
 function repo_init(){
     core_repo_init({
       'keybinds': {
-        49: {
+        13: {
           'todo': random_any,
         },
-        50: {
+        49: {
           'todo': random_game,
         },
-        51: {
+        50: {
           'todo': random_simulation,
         },
-        52: {
+        51: {
           'todo': random_thirdparty,
         },
-        53: {
+        52: {
           'todo': random_tool,
         },
-        54: {
+        53: {
           'todo': random_iterami,
         },
-        55: {
+        54: {
           'todo': random_github,
         },
       },
