@@ -47,18 +47,15 @@ function random_game(){
 
 function random_github(){
     const repositories = [
-      'https://github.com/iterami/Browser.gtk',
       'https://github.com/iterami/Chromium-iterami-Theme',
       'https://github.com/iterami/clearundostack',
       'https://github.com/iterami/EVE-Overviews.yaml',
       'https://github.com/iterami/GMod-iterami-Addon',
       'https://github.com/iterami/iterami.github.io',
       'https://github.com/iterami/OS.asm',
-      'https://github.com/iterami/random_number_test.gtk',
       'https://github.com/iterami/SC-AI.cpp',
       'https://github.com/iterami/Scripts',
       'https://github.com/iterami/TextEditor.gtk',
-      'https://github.com/iterami/WebBrowser.gtk',
       'https://github.com/iterami/WoW-iterami-Addon',
       'https://github.com/iterami/WZ2100-AI.js',
     ];
@@ -184,7 +181,6 @@ function random_simulation(){
       '../Poem.htm/index.htm',
       '../QjnyYap.htm/index.htm',
       '../Rain-2D.htm/index.htm',
-      'https://github.com/iterami/random_number_test.gtk',
       '../random_number_test.htm/index.htm',
       '../SnowyMountains.htm/index.htm',
       '../SolarSystem-2D.htm/index.htm',
@@ -232,7 +228,6 @@ function random_tool(){
       '../BaseConverter.htm/index.htm',
       '../BinaryDataEndecoder.htm/index.htm',
       '../Bookmarklets.htm/index.htm',
-      'https://github.com/iterami/Browser.gtk',
       'https://github.com/iterami/Chromium-iterami-Theme',
       '../ColorSelector.htm/index.htm',
       '../common/index.htm',
@@ -270,7 +265,6 @@ function random_tool(){
       '../UnitConverter.htm/index.htm',
       '../URI.htm/index.htm',
       '../WASD-2D.htm/index.htm',
-      'https://github.com/iterami/WebBrowser.gtk',
       '../WindowInfo.htm/index.htm',
       'https://github.com/iterami/WoW-iterami-Addon',
       'https://github.com/iterami/WZ2100-AI.js',
