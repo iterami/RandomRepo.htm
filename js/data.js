@@ -47,7 +47,6 @@ function random_game(){
 
 function random_github(){
     const repositories = [
-      'https://github.com/iterami/Chromium-iterami-Theme',
       'https://github.com/iterami/clearundostack',
       'https://github.com/iterami/EVE-Overviews.yaml',
       'https://github.com/iterami/GMod-iterami-Addon',
@@ -198,7 +197,6 @@ function random_simulation(){
 
 function random_thirdparty(){
     const repositories = [
-      'https://github.com/iterami/Chromium-iterami-Theme',
       'https://github.com/iterami/clearundostack',
       'https://github.com/iterami/EVE-Overviews.yaml',
       'https://github.com/iterami/GMod-iterami-Addon',
@@ -224,7 +222,6 @@ function random_tool(){
       '../AudioEditor.htm/index.htm',
       '../BaseConverter.htm/index.htm',
       '../BinaryDataEndecoder.htm/index.htm',
-      'https://github.com/iterami/Chromium-iterami-Theme',
       '../ColorSelector.htm/index.htm',
       '../common/index.htm',
       '../Docs.htm/index.htm',
