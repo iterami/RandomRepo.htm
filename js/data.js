@@ -49,12 +49,12 @@ function random_github(){
     const repositories = [
       'https://github.com/iterami/clearundostack',
       'https://github.com/iterami/EVE-Overviews.yaml',
-      'https://github.com/iterami/GMod-iterami-Addon',
+      'https://github.com/iterami/GMod-Addons.lua',
       'https://github.com/iterami/iterami.github.io',
       'https://github.com/iterami/SC-AI.cpp',
       'https://github.com/iterami/Scripts',
       'https://github.com/iterami/TextEditor.gtk',
-      'https://github.com/iterami/WoW-iterami-Addon',
+      'https://github.com/iterami/WoW-Addons.lua',
       'https://github.com/iterami/WZ2100-AI.js',
     ];
 
@@ -199,13 +199,13 @@ function random_thirdparty(){
     const repositories = [
       'https://github.com/iterami/clearundostack',
       'https://github.com/iterami/EVE-Overviews.yaml',
-      'https://github.com/iterami/GMod-iterami-Addon',
+      'https://github.com/iterami/GMod-Addons.lua',
       '../Guides.htm/index.htm',
       '../Interpreters.htm/index.htm',
-      'https://github.com/iterami/MC-iterami-DataPacks',
+      'https://github.com/iterami/MC-DataPacks',
       '../RandomSCP.htm/index.htm',
       'https://github.com/iterami/SC-AI.cpp',
-      'https://github.com/iterami/WoW-iterami-Addon',
+      'https://github.com/iterami/WoW-Addons.lua',
       'https://github.com/iterami/WZ2100-AI.js',
     ];
 
@@ -229,13 +229,13 @@ function random_tool(){
       '../ESP-Test.htm/index.htm',
       'https://github.com/iterami/EVE-Overviews.yaml',
       '../Finances.htm/index.htm',
-      'https://github.com/iterami/GMod-iterami-Addon',
+      'https://github.com/iterami/GMod-Addons.lua',
       '../Guides.htm/index.htm',
       'https://github.com/iterami/iterami.github.io',
       '../Labs.htm/index.htm',
       '../LocalStorage.htm/index.htm',
       '../Math.htm/index.htm',
-      'https://github.com/iterami/MC-iterami-DataPacks',
+      'https://github.com/iterami/MC-DataPacks',
       '../MediaDevicesTest.htm/index.htm',
       '../MultiverseEditor.htm/index.htm',
       '../Notes.htm/index.htm',
@@ -257,7 +257,7 @@ function random_tool(){
       '../URI.htm/index.htm',
       '../WASD-2D.htm/index.htm',
       '../WindowInfo.htm/index.htm',
-      'https://github.com/iterami/WoW-iterami-Addon',
+      'https://github.com/iterami/WoW-Addons.lua',
       'https://github.com/iterami/WZ2100-AI.js',
     ];
 
