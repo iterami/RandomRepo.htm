@@ -29,6 +29,6 @@ function repo_init(){
         'target': '_blank',
       },
       'storage-menu': '<table><tr><td><input id=target><td>Target</table>',
-      'title': 'RandomRepository.htm',
+      'title': 'RandomRepo.htm',
     });
 }

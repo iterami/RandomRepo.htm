@@ -1,5 +1,5 @@
-iterami/RandomRepository.htm
-----------------------------
+iterami/RandomRepo.htm
+----------------------
 
 * Contributing: https://iterami.github.io/Docs.htm/standards/contributing.htm
 * Requires:

@@ -13,7 +13,7 @@ function random_any(){
 }
 
 function random_game(){
-    const repositories = [
+    const repos = [
       '../BlindMouse.htm/index.htm',
       '../Click.htm/index.htm',
       '../Countdown.htm/index.htm',
@@ -38,15 +38,15 @@ function random_game(){
     ];
 
     globalThis.open(
-      repositories[core_random_integer({
-        'max': repositories.length,
+      repos[core_random_integer({
+        'max': repos.length,
       })],
       core_storage_data['target']
     );
 }
 
 function random_github(){
-    const repositories = [
+    const repos = [
       'https://github.com/iterami/clearundostack',
       'https://github.com/iterami/EVE-Overviews.yaml',
       'https://github.com/iterami/GMod-Addons.lua',
@@ -59,15 +59,15 @@ function random_github(){
     ];
 
     globalThis.open(
-      repositories[core_random_integer({
-        'max': repositories.length,
+      repos[core_random_integer({
+        'max': repos.length,
       })],
       core_storage_data['target']
     );
 }
 
 function random_iterami(){
-    const repositories = [
+    const repos = [
       '../9YG0E6r.htm/index.htm',
       '../Aquarium-2D.htm/index.htm',
       '../AudioEditor.htm/index.htm',
@@ -150,15 +150,15 @@ function random_iterami(){
     ];
 
     globalThis.open(
-      repositories[core_random_integer({
-        'max': repositories.length,
+      repos[core_random_integer({
+        'max': repos.length,
       })],
       core_storage_data['target']
     );
 }
 
 function random_simulation(){
-    const repositories = [
+    const repos = [
       '../9YG0E6r.htm/index.htm',
       '../Aquarium-2D.htm/index.htm',
       '../Clock.htm/index.htm',
@@ -188,15 +188,15 @@ function random_simulation(){
     ];
 
     globalThis.open(
-      repositories[core_random_integer({
-        'max': repositories.length,
+      repos[core_random_integer({
+        'max': repos.length,
       })],
       core_storage_data['target']
     );
 }
 
 function random_thirdparty(){
-    const repositories = [
+    const repos = [
       'https://github.com/iterami/clearundostack',
       'https://github.com/iterami/EVE-Overviews.yaml',
       'https://github.com/iterami/GMod-Addons.lua',
@@ -210,15 +210,15 @@ function random_thirdparty(){
     ];
 
     globalThis.open(
-      repositories[core_random_integer({
-        'max': repositories.length,
+      repos[core_random_integer({
+        'max': repos.length,
       })],
       core_storage_data['target']
     );
 }
 
 function random_tool(){
-    const repositories = [
+    const repos = [
       '../AudioEditor.htm/index.htm',
       '../BaseConverter.htm/index.htm',
       '../BinaryDataEndecoder.htm/index.htm',
@@ -262,8 +262,8 @@ function random_tool(){
     ];
 
     globalThis.open(
-      repositories[core_random_integer({
-        'max': repositories.length,
+      repos[core_random_integer({
+        'max': repos.length,
       })],
       core_storage_data['target']
     );
