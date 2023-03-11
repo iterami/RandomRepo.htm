@@ -158,6 +158,28 @@ function random_iterami(){
     );
 }
 
+function random_other(){
+    const repos = [
+      'https://github.com/iterami/clearundostack',
+      'https://github.com/iterami/EVE-Overviews.yaml',
+      'https://github.com/iterami/GMod-Addons.lua',
+      '../Guides.htm/index.htm',
+      '../Interpreters.htm/index.htm',
+      'https://github.com/iterami/MC-DataPacks',
+      '../RandomSCP.htm/index.htm',
+      'https://github.com/iterami/SC-AI.cpp',
+      'https://github.com/iterami/WoW-Addons.lua',
+      'https://github.com/iterami/WZ2100-AI.js',
+    ];
+
+    globalThis.open(
+      repos[core_random_integer({
+        'max': repos.length,
+      })],
+      core_storage_data['target']
+    );
+}
+
 function random_simulation(){
     const repos = [
       '../9YG0E6r.htm/index.htm',
@@ -186,28 +208,6 @@ function random_simulation(){
       '../Trains-2D.htm/index.htm',
       '../Tubes-2D3D.htm/index.htm',
       '../Warped.htm/index.htm',
-    ];
-
-    globalThis.open(
-      repos[core_random_integer({
-        'max': repos.length,
-      })],
-      core_storage_data['target']
-    );
-}
-
-function random_thirdparty(){
-    const repos = [
-      'https://github.com/iterami/clearundostack',
-      'https://github.com/iterami/EVE-Overviews.yaml',
-      'https://github.com/iterami/GMod-Addons.lua',
-      '../Guides.htm/index.htm',
-      '../Interpreters.htm/index.htm',
-      'https://github.com/iterami/MC-DataPacks',
-      '../RandomSCP.htm/index.htm',
-      'https://github.com/iterami/SC-AI.cpp',
-      'https://github.com/iterami/WoW-Addons.lua',
-      'https://github.com/iterami/WZ2100-AI.js',
     ];
 
     globalThis.open(
