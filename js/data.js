@@ -47,7 +47,6 @@ function random_game(){
 
 function random_github(){
     const repos = [
-      'https://github.com/iterami/clearundostack',
       'https://github.com/iterami/EVE-Overviews.yaml',
       'https://github.com/iterami/GMod-Addons.lua',
       'https://github.com/iterami/iterami.github.io',
@@ -160,7 +159,6 @@ function random_iterami(){
 
 function random_other(){
     const repos = [
-      'https://github.com/iterami/clearundostack',
       'https://github.com/iterami/EVE-Overviews.yaml',
       'https://github.com/iterami/GMod-Addons.lua',
       '../Guides.htm/index.htm',
