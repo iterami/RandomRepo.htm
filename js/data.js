@@ -61,7 +61,8 @@ function random_github(){
       repos[core_random_integer({
         'max': repos.length,
       })],
-      core_storage_data['target']
+      core_storage_data['target'],
+      'noreferrer'
     );
 }
 
@@ -173,7 +174,8 @@ function random_other(){
       repos[core_random_integer({
         'max': repos.length,
       })],
-      core_storage_data['target']
+      core_storage_data['target'],
+      'noreferrer'
     );
 }
 
@@ -263,6 +265,7 @@ function random_tool(){
       repos[core_random_integer({
         'max': repos.length,
       })],
-      core_storage_data['target']
+      core_storage_data['target'],
+      'noreferrer'
     );
 }
