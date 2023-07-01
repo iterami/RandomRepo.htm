@@ -47,14 +47,9 @@ function random_game(){
 
 function random_github(){
     const repos = [
-      'https://github.com/iterami/EVE-Overviews.yaml',
-      'https://github.com/iterami/GMod-Addons.lua',
       'https://github.com/iterami/iterami.github.io',
-      'https://github.com/iterami/SC-AI.cpp',
       'https://github.com/iterami/Scripts',
       'https://github.com/iterami/TextEditor.gtk',
-      'https://github.com/iterami/WoW-Addons.lua',
-      'https://github.com/iterami/WZ2100-AI.js',
     ];
 
     globalThis.open(
@@ -94,11 +89,9 @@ function random_iterami(){
       '../FractalRunner-2D3D.htm/index.htm',
       '../GradientIllusion.htm/index.htm',
       '../Guess.htm/index.htm',
-      '../Guides.htm/index.htm',
       '../Hallway-2D3D.htm/index.htm',
       '../Hexagons-2D.htm/index.htm',
       '../Hrad.htm/index.htm',
-      '../Interpreters.htm/index.htm',
       '../Jetpack-2D.htm/index.htm',
       '../LayeredSnake-2D3D.htm/index.htm',
       '../LocalStorage.htm/index.htm',
@@ -119,7 +112,6 @@ function random_iterami(){
       '../QjnyYap.htm/index.htm',
       '../Rain-2D.htm/index.htm',
       '../random_number_test.htm/index.htm',
-      '../RandomSCP.htm/index.htm',
       '../ReactionTest.htm/index.htm',
       '../RNG.htm/index.htm',
       '../RockPaperScissors.htm/index.htm',
@@ -154,28 +146,6 @@ function random_iterami(){
         'max': repos.length,
       })],
       core_storage_data['target']
-    );
-}
-
-function random_other(){
-    const repos = [
-      'https://github.com/iterami/EVE-Overviews.yaml',
-      'https://github.com/iterami/GMod-Addons.lua',
-      '../Guides.htm/index.htm',
-      '../Interpreters.htm/index.htm',
-      'https://github.com/iterami/MC-DataPacks',
-      '../RandomSCP.htm/index.htm',
-      'https://github.com/iterami/SC-AI.cpp',
-      'https://github.com/iterami/WoW-Addons.lua',
-      'https://github.com/iterami/WZ2100-AI.js',
-    ];
-
-    globalThis.open(
-      repos[core_random_integer({
-        'max': repos.length,
-      })],
-      core_storage_data['target'],
-      'noreferrer'
     );
 }
 
@@ -227,14 +197,10 @@ function random_tool(){
       '../Docs.htm/index.htm',
       '../Duel.htm/index.htm',
       '../ESP-Test.htm/index.htm',
-      'https://github.com/iterami/EVE-Overviews.yaml',
       '../Finances.htm/index.htm',
-      'https://github.com/iterami/GMod-Addons.lua',
-      '../Guides.htm/index.htm',
       'https://github.com/iterami/iterami.github.io',
       '../LocalStorage.htm/index.htm',
       '../Math.htm/index.htm',
-      'https://github.com/iterami/MC-DataPacks',
       '../MediaDevicesTest.htm/index.htm',
       '../MultiverseEditor.htm/index.htm',
       '../MultiverseViewer.htm/index.htm',
@@ -242,12 +208,10 @@ function random_tool(){
       '../PasswordGenerator.htm/index.htm',
       '../PixelEditor.htm/index.htm',
       '../Profiler.htm/index.htm',
-      '../RandomSCP.htm/index.htm',
       '../ReactionTest.htm/index.htm',
       '../RNG.htm/index.htm',
       '../RomanNumerals.htm/index.htm',
       '../RTS-Boxing.htm/index.htm',
-      'https://github.com/iterami/SC-AI.cpp',
       'https://github.com/iterami/Scripts',
       'https://github.com/iterami/TextEditor.gtk',
       '../TextInfo.htm/index.htm',
@@ -257,8 +221,6 @@ function random_tool(){
       '../URI.htm/index.htm',
       '../WASD-2D.htm/index.htm',
       '../WindowInfo.htm/index.htm',
-      'https://github.com/iterami/WoW-Addons.lua',
-      'https://github.com/iterami/WZ2100-AI.js',
     ];
 
     globalThis.open(
