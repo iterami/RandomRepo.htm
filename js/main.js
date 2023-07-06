@@ -16,19 +16,16 @@ function repo_init(){
           'todo': random_tool,
         },
         52: {
-          'todo': random_other,
-        },
-        53: {
           'todo': random_iterami,
         },
-        54: {
+        53: {
           'todo': random_github,
         },
       },
       'storage': {
         'target': '_blank',
       },
-      'storage-menu': '<table><tr><td><input id=target><td>Target</table>',
+      'storage-menu': '<table><tr><td><input id=target type=text><td>Target</table>',
       'title': 'RandomRepo.htm',
     });
 }
