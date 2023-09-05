@@ -61,7 +61,7 @@ function random_github(){
     );
 }
 
-function random_iterami(){
+function random_local(){
     const repos = [
       '../9YG0E6r.htm/index.htm',
       '../Aquarium-2D.htm/index.htm',
@@ -250,7 +250,7 @@ function repo_init(){
           'todo': random_tool,
         },
         52: {
-          'todo': random_iterami,
+          'todo': random_local,
         },
         53: {
           'todo': random_github,
