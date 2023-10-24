@@ -215,22 +215,22 @@ function random_tool(){
 function repo_init(){
     core_repo_init({
       'keybinds': {
-        13: {
+        'Enter': {
           'todo': random_any,
         },
-        49: {
+        'Digit1': {
           'todo': random_game,
         },
-        50: {
+        'Digit2': {
           'todo': random_simulation,
         },
-        51: {
+        'Digit3': {
           'todo': random_tool,
         },
-        52: {
+        'Digit4': {
           'todo': random_local,
         },
-        53: {
+        'Digit5': {
           'todo': random_github,
         },
       },
