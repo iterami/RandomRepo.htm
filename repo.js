@@ -1,9 +1,7 @@
 'use strict';
 
 function open_local(repos){
-    const repo = repos[core_random_integer({
-      'max': repos.length,
-    })];
+    const repo = repos[core_random_integer(repos.length)];
     globalThis.open(
       '../' + repo + '/index.htm',
       core_storage_data['target']
@@ -18,9 +16,7 @@ function random_any(){
       'simulation',
       'tool',
     ];
-    globalThis['random_' + types[core_random_integer({
-      'max': types.length,
-    })]]();
+    globalThis['random_' + types[core_random_integer(types.length)]]();
 }
 
 function random_game(){
@@ -56,9 +52,7 @@ function random_github(){
       'https://github.com/iterami/TextEditor.gtk',
     ];
     globalThis.open(
-      repos[core_random_integer({
-        'max': repos.length,
-      })],
+      repos[core_random_integer(repos.length)],
       core_storage_data['target'],
       'noreferrer'
     );
