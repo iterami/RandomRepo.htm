@@ -4,7 +4,7 @@ function open_local(repos){
     const repo = repos[core_random_integer(repos.length)];
     globalThis.open(
       '../' + repo + '/index.htm',
-      core_storage_data['target']
+      core_storage_data.target
     );
 }
 
@@ -53,7 +53,7 @@ function random_github(){
     ];
     globalThis.open(
       repos[core_random_integer(repos.length)],
-      core_storage_data['target'],
+      core_storage_data.target,
       'noreferrer'
     );
 }
