@@ -233,7 +233,7 @@ function repo_init(){
       'storage': {
         'target': '_blank',
       },
-      'storage-menu': '<table><tr><td><input id=target type=text><td>Target</table>',
+      'storage_menu': '<table><tr><td><input id=target type=text><td>Target</table>',
       'title': 'RandomRepo.htm',
     });
 }
