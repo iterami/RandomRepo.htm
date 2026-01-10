@@ -214,22 +214,22 @@ function repo_init(){
     core_repo_init({
       'keybinds': {
         'Enter': {
-          'todo': random_any,
+          'down': random_any,
         },
         'Digit1': {
-          'todo': random_game,
+          'down': random_game,
         },
         'Digit2': {
-          'todo': random_simulation,
+          'down': random_simulation,
         },
         'Digit3': {
-          'todo': random_tool,
+          'down': random_tool,
         },
         'Digit4': {
-          'todo': random_local,
+          'down': random_local,
         },
         'Digit5': {
-          'todo': random_github,
+          'down': random_github,
         },
       },
       'storage': {
