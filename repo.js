@@ -210,6 +210,12 @@ function random_tool(){
 
 function repo_init(){
     core_repo_init({
+      'info': '<table class=medium><tr><td><a class=external href="javascript:random_any();">[ENTER] Open Random iterami Repo</a>'
+        + '<tr><td><a href="javascript:random_game();">[1] Random Game</a>'
+        + '<tr><td><a href="javascript:random_simulation();">[2] Random Simulation</a>'
+        + '<tr><td><a href="javascript:random_tool();">[3] Random Tool</a>'
+        + '<tr><td><a href="javascript:random_local();">[4] Only Current Local</a>'
+        + '<tr><td><a class=external href="javascript:random_github();">[5] Only https://github.com</a></table>',
       'keybinds': {
         'Enter': {
           'down': random_any,
@@ -230,6 +236,8 @@ function repo_init(){
           'down': random_github,
         },
       },
+      'menu_block_events': false,
+      'menu_lock': true,
       'storage': {
         'target': '_blank',
       },
